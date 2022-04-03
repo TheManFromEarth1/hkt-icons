@@ -24,6 +24,6 @@
     "typescript": "^4.6.3"
   },
   "lint-staged": {
-    "*.{js,svg,md}": "prettier --write --no-semi"
+    "*.{js,ts,svg,md}": "prettier --write --no-semi"
   }
 }
