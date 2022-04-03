@@ -5,3 +5,4 @@ export { ReactComponent as Quote } from "./Quote.svg";
 export { ReactComponent as Radio } from "./Radio.svg";
 export { ReactComponent as Til } from "./Til.svg";
 export { ReactComponent as Timer } from "./Timer.svg";
+export { ReactComponent as Tv } from "./Tv.svg";

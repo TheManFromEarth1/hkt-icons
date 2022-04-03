@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "HKT icons",
   "private": true,
-  "main": "icons/index.js",
-  "module": "icons/index.js",
   "types": "icons/index.d.ts",
   "sideEffects": false,
   "exports": {
