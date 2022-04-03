@@ -1,0 +1,37 @@
+{
+  "name": "hkt-icons",
+  "version": "1.0.0",
+  "description": "HKT icons",
+  "private": true,
+  "main": "./icons/index.js",
+  "module": "./icons/index.js",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./icons/index.js"
+    },
+    "./settings": {
+      "import": "./icons/settings/index.js"
+    },
+    "./widgets": {
+      "import": "./icons/widgets/index.js"
+    }
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "react-native"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "prepublishOnly": "node prepublish.json"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.{js,md}": "prettier --write --no-semi"
+  }
+}
