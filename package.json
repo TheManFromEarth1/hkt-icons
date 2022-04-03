@@ -3,19 +3,9 @@
   "version": "1.0.0",
   "description": "HKT icons",
   "private": true,
-  "types": "icons/index.d.ts",
+  "main": "default/index.js",
+  "types": "default/index.d.ts",
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "import": "./icons/index.js"
-    },
-    "./settings": {
-      "import": "./icons/settings/index.js"
-    },
-    "./widgets": {
-      "import": "./icons/widgets/index.js"
-    }
-  },
   "keywords": [
     "icons",
     "svg",

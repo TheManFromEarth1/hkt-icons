@@ -1,5 +1,10 @@
 {
-  "include": ["./index.d.ts", "./icons/**/*.js"],
+  "include": [
+    "./index.d.ts",
+    "./default/**/*.js",
+    "./settings/**/*.js",
+    "./widgets/**/*.js"
+  ],
   "compilerOptions": {
     "rootDir": "./",
     "checkJs": true,
