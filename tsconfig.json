@@ -1,8 +1,10 @@
 {
+  "include": ["./index.d.ts", "./icons/**/*.js"],
   "compilerOptions": {
     "rootDir": "./",
     "checkJs": true,
-    "noEmit": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
