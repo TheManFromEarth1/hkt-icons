@@ -4,7 +4,7 @@
   "description": "HKT icons",
   "private": true,
   "main": "default/index.js",
-  "types": "default/index.d.ts",
+  "types": "types",
   "sideEffects": false,
   "keywords": [
     "icons",
