@@ -6,25 +6,45 @@ This is the package for HKT icons, for installing it:
 npm install github:TheManFromEarth1/hkt-icons
 ```
 
-If you are adding a new icon don't forget to export it in its respective `index.js` file.
-
-```js
-export { ReactComponent as IconName } from "./IconName.svg"
-```
-
-The `index.d.ts` files are updated with a pre-commit hook.
+## Icons
 
 Here is our current list of icons:
 https://github.com/TheManFromEarth1/hkt-icons/blob/e9a86eeca1ba6172f20990ccfe739519ae0407c3/default/index.js#L1-L57
 
-To use any of them you just need to do:
+## Getting started with React
+
+To use any icon you just need to do the following:
 
 ```jsx
 import { IconName } from "hkt-icons"
 
 const App = () => {
-  return (
-    <IconName />
-  )
+  return <IconName />
 }
 ```
+
+## Getting started with SolidJS
+
+To use any icon you just need to do the following:
+
+```jsx
+import { IconName } from "hkt-icons/solid-js"
+
+const App = () => {
+  return <IconName />
+}
+```
+
+## For developers
+
+If you are adding a new icon don't forget to export it in its respective React and SolidJS `index.js` files.
+
+```js
+// In the React file:
+export { ReactComponent as IconName } from "./IconName.svg"
+// In the SolidJS file:
+export const IconName = () =>
+  h("img", { src: new URL("./IconName.svg", import.meta.url) })
+```
+
+The `index.d.ts` files are updated with a pre-commit hook.
