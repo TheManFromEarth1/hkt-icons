@@ -3,10 +3,9 @@ import React from "react"
 export function Play({ fill = "black" }) {
   return (
     <svg
+      fill="currentColor"
       width="33"
       height="35"
-      viewBox="0 0 33 35"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
