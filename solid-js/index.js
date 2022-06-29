@@ -1,269 +1,322 @@
 import h from "solid-js/h"
 
+import AppSVG from "bundle-text:../default/App.svg"
 export const App = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/App.svg", import.meta.url),
+    innerHTML: AppSVG,
   })
+import ArtSVG from "bundle-text:../default/Art.svg"
 export const Art = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Art.svg", import.meta.url),
+    innerHTML: ArtSVG,
   })
+import BookmarkDefaultSVG from "bundle-text:../default/BookmarkDefault.svg"
 export const BookmarkDefault = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/BookmarkDefault.svg", import.meta.url),
+    innerHTML: BookmarkDefaultSVG,
   })
+import BookmarkSavedSVG from "bundle-text:../default/BookmarkSaved.svg"
 export const BookmarkSaved = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/BookmarkSaved.svg", import.meta.url),
+    innerHTML: BookmarkSavedSVG,
   })
+import DesignSVG from "bundle-text:../default/Design.svg"
 export const Design = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Design.svg", import.meta.url),
+    innerHTML: DesignSVG,
   })
+import DevSVG from "bundle-text:../default/Dev.svg"
 export const Dev = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Dev.svg", import.meta.url),
+    innerHTML: DevSVG,
   })
+import DiscordSVG from "bundle-text:../default/Discord.svg"
 export const Discord = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Discord.svg", import.meta.url),
+    innerHTML: DiscordSVG,
   })
+import DragSVG from "bundle-text:../default/Drag.svg"
 export const Drag = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Drag.svg", import.meta.url),
+    innerHTML: DragSVG,
   })
+import DropdownSVG from "bundle-text:../default/Dropdown.svg"
 export const Dropdown = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Dropdown.svg", import.meta.url),
+    innerHTML: DropdownSVG,
   })
+import DownArrowSVG from "bundle-text:../default/DownArrow.svg"
 export const DownArrow = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/DownArrow.svg", import.meta.url),
+    innerHTML: DownArrowSVG,
   })
+import EmailSVG from "bundle-text:../default/Email.svg"
 export const Email = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Email.svg", import.meta.url),
+    innerHTML: EmailSVG,
   })
+import EuropeSVG from "bundle-text:../default/Europe.svg"
 export const Europe = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Europe.svg", import.meta.url),
+    innerHTML: EuropeSVG,
   })
+import FavoriteSVG from "bundle-text:../default/Favorite.svg"
 export const Favorite = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Favorite.svg", import.meta.url),
+    innerHTML: FavoriteSVG,
   })
+import FolderFilledSVG from "bundle-text:../default/FolderFilled.svg"
 export const FolderFilled = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/FolderFilled.svg", import.meta.url),
+    innerHTML: FolderFilledSVG,
   })
+import GamingSVG from "bundle-text:../default/Gaming.svg"
 export const Gaming = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Gaming.svg", import.meta.url),
+    innerHTML: GamingSVG,
   })
+import HomeSVG from "bundle-text:../default/Home.svg"
 export const Home = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Home.svg", import.meta.url),
+    innerHTML: HomeSVG,
   })
+import HookitoSVG from "bundle-text:../default/Hookito.svg"
 export const Hookito = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Hookito.svg", import.meta.url),
+    innerHTML: HookitoSVG,
   })
+import HookitoFullSVG from "bundle-text:../default/HookitoFull.svg"
 export const HookitoFull = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/HookitoFull.svg", import.meta.url),
+    innerHTML: HookitoFullSVG,
   })
+import ImagesSVG from "bundle-text:../default/Images.svg"
 export const Images = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Images.svg", import.meta.url),
+    innerHTML: ImagesSVG,
   })
+import InsightSVG from "bundle-text:../default/Insight.svg"
 export const Insight = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Insight.svg", import.meta.url),
+    innerHTML: InsightSVG,
   })
+import LearnSVG from "bundle-text:../default/Learn.svg"
 export const Learn = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Learn.svg", import.meta.url),
+    innerHTML: LearnSVG,
   })
+import LikedSVG from "bundle-text:../default/Liked.svg"
 export const Liked = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Liked.svg", import.meta.url),
+    innerHTML: LikedSVG,
   })
+import LinkSVG from "bundle-text:../default/Link.svg"
 export const Link = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Link.svg", import.meta.url),
+    innerHTML: LinkSVG,
   })
+import LiveSVG from "bundle-text:../default/Live.svg"
 export const Live = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Live.svg", import.meta.url),
+    innerHTML: LiveSVG,
   })
+import LoadingSVG from "bundle-text:../default/Loading.svg"
 export const Loading = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Loading.svg", import.meta.url),
+    innerHTML: LoadingSVG,
   })
+import LockSVG from "bundle-text:../default/Lock.svg"
 export const Lock = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Lock.svg", import.meta.url),
+    innerHTML: LockSVG,
   })
+import MapsSVG from "bundle-text:../default/Maps.svg"
 export const Maps = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Maps.svg", import.meta.url),
+    innerHTML: MapsSVG,
   })
+import MarketingSVG from "bundle-text:../default/Marketing.svg"
 export const Marketing = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Marketing.svg", import.meta.url),
+    innerHTML: MarketingSVG,
   })
+import MoonSVG from "bundle-text:../default/Moon.svg"
 export const Moon = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Moon.svg", import.meta.url),
+    innerHTML: MoonSVG,
   })
+import MoveSVG from "bundle-text:../default/Move.svg"
 export const Move = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Move.svg", import.meta.url),
+    innerHTML: MoveSVG,
   })
+import MusicSVG from "bundle-text:../default/Music.svg"
 export const Music = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Music.svg", import.meta.url),
+    innerHTML: MusicSVG,
   })
+import NewsSVG from "bundle-text:../default/News.svg"
 export const News = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/News.svg", import.meta.url),
+    innerHTML: NewsSVG,
   })
+import NextSVG from "bundle-text:../default/Next.svg"
 export const Next = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Next.svg", import.meta.url),
+    innerHTML: NextSVG,
   })
 export { Pause } from "./Pause.js"
 export { Play } from "./Play.js"
+import PodcastSVG from "bundle-text:../default/Podcast.svg"
 export const Podcast = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Podcast.svg", import.meta.url),
+    innerHTML: PodcastSVG,
   })
+import PresentSVG from "bundle-text:../default/Present.svg"
 export const Present = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Present.svg", import.meta.url),
+    innerHTML: PresentSVG,
   })
+import PreviousSVG from "bundle-text:../default/Previous.svg"
 export const Previous = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Previous.svg", import.meta.url),
+    innerHTML: PreviousSVG,
   })
+import QuestionSVG from "bundle-text:../default/Question.svg"
 export const Question = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Question.svg", import.meta.url),
+    innerHTML: QuestionSVG,
   })
+import RadioSVG from "bundle-text:../default/Radio.svg"
 export const Radio = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Radio.svg", import.meta.url),
+    innerHTML: RadioSVG,
   })
+import RainSVG from "bundle-text:../default/Rain.svg"
 export const Rain = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Rain.svg", import.meta.url),
+    innerHTML: RainSVG,
   })
+import RSSSVG from "bundle-text:../default/RSS.svg"
 export const RSS = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/RSS.svg", import.meta.url),
+    innerHTML: RSSSVG,
   })
+import SearchSVG from "bundle-text:../default/Search.svg"
 export const Search = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Search.svg", import.meta.url),
+    innerHTML: SearchSVG,
   })
+import SeatSVG from "bundle-text:../default/Seat.svg"
 export const Seat = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Seat.svg", import.meta.url),
+    innerHTML: SeatSVG,
   })
+import ShareSVG from "bundle-text:../default/Share.svg"
 export const Share = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Share.svg", import.meta.url),
+    innerHTML: ShareSVG,
   })
+import ShoppingSVG from "bundle-text:../default/Shopping.svg"
 export const Shopping = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Shopping.svg", import.meta.url),
+    innerHTML: ShoppingSVG,
   })
+import StartpageSVG from "bundle-text:../default/Startpage.svg"
 export const Startpage = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Startpage.svg", import.meta.url),
+    innerHTML: StartpageSVG,
   })
+import StocksSVG from "bundle-text:../default/Stocks.svg"
 export const Stocks = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Stocks.svg", import.meta.url),
+    innerHTML: StocksSVG,
   })
+import SunSVG from "bundle-text:../default/Sun.svg"
 export const Sun = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Sun.svg", import.meta.url),
+    innerHTML: SunSVG,
   })
+import ThrowSVG from "bundle-text:../default/Throw.svg"
 export const Throw = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Throw.svg", import.meta.url),
+    innerHTML: ThrowSVG,
   })
+import TreeSVG from "bundle-text:../default/Tree.svg"
 export const Tree = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Tree.svg", import.meta.url),
+    innerHTML: TreeSVG,
   })
+import UnlockSVG from "bundle-text:../default/Unlock.svg"
 export const Unlock = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Unlock.svg", import.meta.url),
+    innerHTML: UnlockSVG,
   })
+import UparrowSVG from "bundle-text:../default/Uparrow.svg"
 export const Uparrow = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Uparrow.svg", import.meta.url),
+    innerHTML: UparrowSVG,
   })
+import VolumeSVG from "bundle-text:../default/Volume.svg"
 export const Volume = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/Volume.svg", import.meta.url),
+    innerHTML: VolumeSVG,
   })
+import WWWSVG from "bundle-text:../default/WWW.svg"
 export const WWW = (props) =>
-  h("img", {
+  h("span", {
     style: { color: props.color ?? "#000" },
-    src: new URL("../default/WWW.svg", import.meta.url),
+    innerHTML: WWWSVG,
   })

@@ -1,18 +1,18 @@
 import h from "solid-js/h"
 
-export const Crypto = () =>
-  h("img", { src: new URL("../widgets/Crypto.svg", import.meta.url) })
-export const MysteryCube = () =>
-  h("img", { src: new URL("../widgets/MysteryCube.svg", import.meta.url) })
-export const Overview = () =>
-  h("img", { src: new URL("../widgets/Overview.svg", import.meta.url) })
-export const Quote = () =>
-  h("img", { src: new URL("../widgets/Quote.svg", import.meta.url) })
-export const Radio = () =>
-  h("img", { src: new URL("../widgets/Radio.svg", import.meta.url) })
-export const Til = () =>
-  h("img", { src: new URL("../widgets/Til.svg", import.meta.url) })
-export const Timer = () =>
-  h("img", { src: new URL("../widgets/Timer.svg", import.meta.url) })
-export const Tv = () =>
-  h("img", { src: new URL("../widgets/Tv.svg", import.meta.url) })
+import CryptoSVG from "bundle-text:../widgets/Crypto.svg"
+export const Crypto = () => h("span", { innerHTML: CryptoSVG })
+import MysteryCubeSVG from "bundle-text:../widgets/MysteryCube.svg"
+export const MysteryCube = () => h("span", { innerHTML: MysteryCubeSVG })
+import OverviewSVG from "bundle-text:../widgets/Overview.svg"
+export const Overview = () => h("span", { innerHTML: OverviewSVG })
+import QuoteSVG from "bundle-text:../widgets/Quote.svg"
+export const Quote = () => h("span", { innerHTML: QuoteSVG })
+import RadioSVG from "bundle-text:../widgets/Radio.svg"
+export const Radio = () => h("span", { innerHTML: RadioSVG })
+import TilSVG from "bundle-text:../widgets/Til.svg"
+export const Til = () => h("span", { innerHTML: TilSVG })
+import TimerSVG from "bundle-text:../widgets/Timer.svg"
+export const Timer = () => h("span", { innerHTML: TimerSVG })
+import TvSVG from "bundle-text:../widgets/Tv.svg"
+export const Tv = () => h("span", { innerHTML: TvSVG })
