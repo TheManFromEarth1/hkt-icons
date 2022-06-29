@@ -1,16 +1,16 @@
 import h from "solid-js/h"
 
-export const Add = () =>
-  h("img", { src: new URL("../settings/Add.svg", import.meta.url) })
-export const Copy = () =>
-  h("img", { src: new URL("../settings/Copy.svg", import.meta.url) })
-export const Delete = () =>
-  h("img", { src: new URL("../settings/Delete.svg", import.meta.url) })
-export const Grid = () =>
-  h("img", { src: new URL("../settings/Grid.svg", import.meta.url) })
-export const List = () =>
-  h("img", { src: new URL("../settings/List.svg", import.meta.url) })
-export const OpenAll = () =>
-  h("img", { src: new URL("../settings/OpenAll.svg", import.meta.url) })
-export const Settings = () =>
-  h("img", { src: new URL("../settings/Settings.svg", import.meta.url) })
+import AddSVG from "bundle-text:../settings/Add.svg"
+export const Add = () => h("span", { innerHTML: AddSVG })
+import CopySVG from "bundle-text:../settings/Copy.svg"
+export const Copy = () => h("span", { innerHTML: CopySVG })
+import DeleteSVG from "bundle-text:../settings/Delete.svg"
+export const Delete = () => h("span", { innerHTML: DeleteSVG })
+import GridSVG from "bundle-text:../settings/Grid.svg"
+export const Grid = () => h("span", { innerHTML: GridSVG })
+import ListSVG from "bundle-text:../settings/List.svg"
+export const List = () => h("span", { innerHTML: ListSVG })
+import OpenAllSVG from "bundle-text:../settings/OpenAll.svg"
+export const OpenAll = () => h("span", { innerHTML: OpenAllSVG })
+import SettingsSVG from "bundle-text:../settings/Settings.svg"
+export const Settings = () => h("span", { innerHTML: SettingsSVG })
