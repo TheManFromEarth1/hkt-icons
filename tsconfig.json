@@ -3,6 +3,7 @@
     "./index.d.ts",
     "./default/**/*.js",
     "./settings/**/*.js",
+    // "./solid-js/**/*.js",
     "./widgets/**/*.js"
   ],
   "compilerOptions": {
@@ -13,7 +14,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "noImplicitAny": true,
+    // "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "rootDir": "./",

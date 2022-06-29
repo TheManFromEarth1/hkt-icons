@@ -43,8 +43,12 @@ If you are adding a new icon don't forget to export it in its respective React a
 // In the React file:
 export { ReactComponent as IconName } from "./IconName.svg"
 // In the SolidJS file:
-export const IconName = () =>
-  h("img", { src: new URL("./IconName.svg", import.meta.url) })
+import IconNameSVG from "bundle-text:./IconName.svg"
+export const IconName = (props) =>
+  h("span", {
+    style: { color: props.color ?? "#000" },
+    innerHTML: IconNameSVG,
+  })
 ```
 
 The `index.d.ts` files are updated with a pre-commit hook.
