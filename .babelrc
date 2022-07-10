@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-inline-import",
+      { "extensions": [ ".svg" ] }
+    ],
+    [
+      "module-resolver",
+      { "alias": { "/icons": "./icons" } }
+    ]
+  ]
+}
