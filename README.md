@@ -16,7 +16,7 @@ https://github.com/TheManFromEarth1/hkt-icons/blob/e9a86eeca1ba6172f20990ccfe739
 To use any icon you just need to do the following:
 
 ```jsx
-import { IconName } from "hkt-icons"
+import { IconName } from "hkt-icons/react"
 
 const App = () => {
   return <IconName />
@@ -28,7 +28,7 @@ const App = () => {
 To use any icon you just need to do the following:
 
 ```jsx
-import { IconName } from "hkt-icons/solid-js"
+import { IconName } from "hkt-icons/solid"
 
 const App = () => {
   return <IconName />
@@ -37,18 +37,17 @@ const App = () => {
 
 ## For developers
 
-If you are adding a new icon don't forget to export it in its respective React and SolidJS `index.js` files.
+If you are adding a new icon don't forget to export it in its respective React and SolidJS files files.
 
 ```js
 // In the React file:
-export { ReactComponent as IconName } from "./IconName.svg"
+import IconNameContent from "/icons/path/IconName.svg"
+export const IconName = icon(IconNameContent)
 // In the SolidJS file:
-import IconNameSVG from "bundle-text:./IconName.svg"
-export const IconName = (props) =>
-  h("span", {
-    style: { color: props.color ?? "#000" },
-    innerHTML: IconNameSVG,
-  })
+import IconNameContent from "/icons/path/IconName.svg"
+export const IconName = icon(IconNameContent)
+// In the React .d.ts file:
+export const IconName: Icon
+// In the SolidJS .d.ts file:
+export const IconName: Icon
 ```
-
-The `index.d.ts` files are updated with a pre-commit hook.

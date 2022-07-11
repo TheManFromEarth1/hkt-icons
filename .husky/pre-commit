@@ -1,6 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx tsc
 npx prettier --write --no-semi ./
 npx lint-staged

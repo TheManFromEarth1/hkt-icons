@@ -1,29 +1,79 @@
 {
   "name": "hkt-icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "HKT icons",
   "private": true,
-  "main": "default/index.js",
-  "types": "types",
-  "sideEffects": false,
+  "exports": {
+    "./icons/*": "./icons/default/*.svg",
+    "./icons/settings/*": "./icons/settings/*.svg",
+    "./icons/widgets/*": "./icons/widgets/*.svg",
+    "./react": {
+      "import": "./lib/react/index.js",
+      "types": "./lib/react/index.d.ts"
+    },
+    "./solid": {
+      "import": "./lib/solid/index.js",
+      "types": "./lib/solid/index.d.ts"
+    },
+    "./react/settings": {
+      "import": "./lib/react/settings.js",
+      "types": "./lib/react/settings.d.ts"
+    },
+    "./solid/settings": {
+      "import": "./lib/solid/settings.js",
+      "types": "./lib/solid/settings.d.ts"
+    },
+    "./react/widgets": {
+      "import": "./lib/react/widgets.js",
+      "types": "./lib/react/widgets.d.ts"
+    },
+    "./solid/widgets": {
+      "import": "./lib/solid/widgets.js",
+      "types": "./lib/solid/widgets.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "react": [
+        "./lib/react/index.d.ts"
+      ],
+      "solid": [
+        "./lib/solid/index.d.ts"
+      ],
+      "react/settings": [
+        "./lib/react/settings.d.ts"
+      ],
+      "solid/settings": [
+        "./lib/solid/settings.d.ts"
+      ],
+      "react/widgets": [
+        "./lib/react/widgets.d.ts"
+      ],
+      "solid/widgets": [
+        "./lib/solid/widgets.d.ts"
+      ]
+    }
+  },
   "keywords": [
     "icons",
     "svg",
     "react",
-    "react-native"
+    "react-native",
+    "solid-js"
   ],
   "scripts": {
-    "prepare": "husky install",
-    "prepublishOnly": "node prepublish.json"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.23",
-    "@types/react": "^17.0.43",
-    "husky": "^7.0.4",
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.3"
+    "build": "babel src -d lib",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,ts,md}": "prettier --write --no-semi"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   }
 }
