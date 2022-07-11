@@ -9,7 +9,9 @@ npm install github:TheManFromEarth1/hkt-icons
 ## Icons
 
 Here is our current list of icons:
-https://github.com/TheManFromEarth1/hkt-icons/blob/e9a86eeca1ba6172f20990ccfe739519ae0407c3/default/index.js#L1-L57
+https://github.com/TheManFromEarth1/hkt-icons/blob/33e0547f9b59739a8091e195c6a1a7781e3de860/lib/solid/index.d.ts#L5-L61
+https://github.com/TheManFromEarth1/hkt-icons/blob/33e0547f9b59739a8091e195c6a1a7781e3de860/lib/solid/settings.d.ts#L5-L11
+https://github.com/TheManFromEarth1/hkt-icons/blob/33e0547f9b59739a8091e195c6a1a7781e3de860/lib/solid/widgets.d.ts#L5-L12
 
 ## Getting started with React
 
