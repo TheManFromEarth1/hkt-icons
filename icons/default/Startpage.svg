@@ -1,2 +1,1 @@
-<line y1="7.5" x2="23" y2="7.5" stroke="black" />
-<rect x="0.5" y="0.5" width="23" height="23" stroke="black" />
+<path stroke="#000" d="M0 7.5h23"/><path stroke="#000" d="M.5.5h23v23H.5z"/>
