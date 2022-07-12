@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "HKT icons",
   "private": true,
+  "type": "module",
   "exports": {
     "./icons/*": "./icons/default/*.svg",
     "./icons/settings/*": "./icons/settings/*.svg",
@@ -14,6 +15,14 @@
     "./solid": {
       "import": "./lib/solid/index.js",
       "types": "./lib/solid/index.d.ts"
+    },
+    "./react/icon": {
+      "import": "./lib/react/icon.js",
+      "types": "./lib/react/icon.d.ts"
+    },
+    "./solid/icon": {
+      "import": "./lib/solid/icon.js",
+      "types": "./lib/solid/icon.d.ts"
     },
     "./react/settings": {
       "import": "./lib/react/settings.js",
@@ -39,6 +48,12 @@
       ],
       "solid": [
         "./lib/solid/index.d.ts"
+      ],
+      "react/icon": [
+        "./lib/react/icon.d.ts"
+      ],
+      "solid/icon": [
+        "./lib/solid/icon.d.ts"
       ],
       "react/settings": [
         "./lib/react/settings.d.ts"
