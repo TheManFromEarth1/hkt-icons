@@ -1,5 +1,4 @@
 import { mergeProps } from "solid-js"
-import h from "solid-js/h"
 
 const icon = (content) => {
   return (baseProps) => {
@@ -14,7 +13,7 @@ const icon = (content) => {
       baseProps
     )
 
-    return h("svg", props)
+    return <svg {...props} />
   }
 }
 

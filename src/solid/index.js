@@ -1,4 +1,4 @@
-import icon from "./icon"
+import icon from "./icon.jsx"
 
 import AppContent from "/icons/default/App.svg"
 export const App = icon(AppContent)

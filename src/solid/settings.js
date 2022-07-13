@@ -1,4 +1,4 @@
-import icon from "./icon"
+import icon from "./icon.jsx"
 
 import AddContent from "/icons/settings/Add.svg"
 export const Add = icon(AddContent)
