@@ -1,6 +1,7 @@
 {
   "plugins": [
-    ["babel-plugin-inline-import", { "extensions": [".svg"] }],
+    ["syntax-jsx"],
+    ["inline-import", { "extensions": [".svg"] }],
     ["module-resolver", { "alias": { "/icons": "./icons" } }]
   ]
 }

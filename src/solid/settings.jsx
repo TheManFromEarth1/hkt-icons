@@ -1,4 +1,21 @@
-import icon from "./icon"
+// import icon from "./icon.jsx"
+import { mergeProps } from "solid-js"
+
+const icon = (content) => {
+  return (baseProps) => {
+    const props = mergeProps(
+      {
+        fill: "currentColor",
+        width: 40,
+        height: 40,
+        xmlns: "http://www.w3.org/2000/svg",
+      },
+      baseProps
+    )
+
+    return <svg {...props} innerHTML={content} />
+  }
+}
 
 import AddContent from "/icons/settings/Add.svg"
 export const Add = icon(AddContent)

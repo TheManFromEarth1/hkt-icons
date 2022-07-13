@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "HKT icons",
   "private": true,
+  "type": "module",
   "exports": {
     "./icons/*": "./icons/default/*.svg",
     "./icons/settings/*": "./icons/settings/*.svg",
@@ -12,15 +13,23 @@
       "types": "./lib/react/index.d.ts"
     },
     "./solid": {
-      "import": "./lib/solid/index.js",
+      "import": "./lib/solid/index.jsx",
       "types": "./lib/solid/index.d.ts"
+    },
+    "./react/icon": {
+      "import": "./lib/react/icon.js",
+      "types": "./lib/react/icon.d.ts"
+    },
+    "./solid/icon": {
+      "import": "./lib/solid/icon.jsx",
+      "types": "./lib/solid/icon.d.ts"
     },
     "./react/settings": {
       "import": "./lib/react/settings.js",
       "types": "./lib/react/settings.d.ts"
     },
     "./solid/settings": {
-      "import": "./lib/solid/settings.js",
+      "import": "./lib/solid/settings.jsx",
       "types": "./lib/solid/settings.d.ts"
     },
     "./react/widgets": {
@@ -28,7 +37,7 @@
       "types": "./lib/react/widgets.d.ts"
     },
     "./solid/widgets": {
-      "import": "./lib/solid/widgets.js",
+      "import": "./lib/solid/widgets.jsx",
       "types": "./lib/solid/widgets.d.ts"
     }
   },
@@ -39,6 +48,12 @@
       ],
       "solid": [
         "./lib/solid/index.d.ts"
+      ],
+      "react/icon": [
+        "./lib/react/icon.d.ts"
+      ],
+      "solid/icon": [
+        "./lib/solid/icon.d.ts"
       ],
       "react/settings": [
         "./lib/react/settings.d.ts"
@@ -62,7 +77,8 @@
     "solid-js"
   ],
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel --keep-file-extension src -d lib",
+    "lint": "prettier --write --no-semi ./",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -73,6 +89,7 @@
     "@babel/core": "^7.18.6",
     "babel-plugin-inline-import": "^3.0.0",
     "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1"
   }

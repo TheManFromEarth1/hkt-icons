@@ -1,11 +1,9 @@
 import { mergeProps } from "solid-js"
-import h from "solid-js/h"
 
 const icon = (content) => {
   return (baseProps) => {
     const props = mergeProps(
       {
-        innerHTML: content,
         fill: "currentColor",
         width: 40,
         height: 40,
@@ -13,7 +11,8 @@ const icon = (content) => {
       },
       baseProps
     )
-    return h("svg", props)
+
+    return <svg {...props} innerHTML={content} />
   }
 }
 

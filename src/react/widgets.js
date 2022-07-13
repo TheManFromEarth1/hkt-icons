@@ -1,4 +1,4 @@
-import icon from "./icon"
+import icon from "./icon.js"
 
 import CryptoContent from "/icons/widgets/Crypto.svg"
 export const Crypto = icon(CryptoContent)
