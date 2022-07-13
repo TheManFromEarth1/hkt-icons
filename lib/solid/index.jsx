@@ -5,7 +5,6 @@ const icon = (content) => {
   return (baseProps) => {
     const props = mergeProps(
       {
-        innerHTML: content,
         fill: "currentColor",
         width: 40,
         height: 40,
@@ -13,7 +12,7 @@ const icon = (content) => {
       },
       baseProps
     )
-    return <svg {...props} />
+    return <svg {...props} innerHTML={content} />
   }
 }
 
