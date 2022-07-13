@@ -13,7 +13,7 @@
       "types": "./lib/react/index.d.ts"
     },
     "./solid": {
-      "import": "./lib/solid/index.js",
+      "import": "./lib/solid/index.jsx",
       "types": "./lib/solid/index.d.ts"
     },
     "./react/icon": {
@@ -29,7 +29,7 @@
       "types": "./lib/react/settings.d.ts"
     },
     "./solid/settings": {
-      "import": "./lib/solid/settings.js",
+      "import": "./lib/solid/settings.jsx",
       "types": "./lib/solid/settings.d.ts"
     },
     "./react/widgets": {
@@ -37,7 +37,7 @@
       "types": "./lib/react/widgets.d.ts"
     },
     "./solid/widgets": {
-      "import": "./lib/solid/widgets.js",
+      "import": "./lib/solid/widgets.jsx",
       "types": "./lib/solid/widgets.d.ts"
     }
   },
