@@ -2,7 +2,7 @@ import type { Component, JSX } from "solid-js"
 
 type Icon = Component<JSX.IntrinsicElements["svg"]>
 
-export const App: Icon
+export const Apps: Icon
 export const Art: Icon
 export const BookmarkDefault: Icon
 export const BookmarkSaved: Icon

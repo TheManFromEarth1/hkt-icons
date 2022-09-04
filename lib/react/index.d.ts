@@ -2,7 +2,7 @@ import type { FC, SVGProps } from "react"
 
 type Icon = FC<SVGProps<SVGSVGElement>>
 
-export const App: Icon
+export const Apps: Icon
 export const Art: Icon
 export const BookmarkDefault: Icon
 export const BookmarkSaved: Icon
