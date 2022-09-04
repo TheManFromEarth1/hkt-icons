@@ -26,6 +26,8 @@ import EuropeContent from "/icons/default/Europe.svg"
 export const Europe = icon(EuropeContent)
 import FavoriteContent from "/icons/default/Favorite.svg"
 export const Favorite = icon(FavoriteContent)
+import FinanceContent from "/icons/default/Finance.svg"
+export const Finance = icon(FinanceContent)
 import FolderFilledContent from "/icons/default/FolderFilled.svg"
 export const FolderFilled = icon(FolderFilledContent)
 import FolderUnfilledContent from "/icons/default/FolderUnfilled.svg"
