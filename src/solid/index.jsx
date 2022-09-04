@@ -17,8 +17,8 @@ const icon = (content) => {
   }
 }
 
-import AppContent from "/icons/default/App.svg"
-export const App = icon(AppContent)
+import AppContent from "/icons/default/Apps.svg"
+export const Apps = icon(AppContent)
 import ArtContent from "/icons/default/Art.svg"
 export const Art = icon(ArtContent)
 import BookmarkDefaultContent from "/icons/default/BookmarkDefault.svg"
