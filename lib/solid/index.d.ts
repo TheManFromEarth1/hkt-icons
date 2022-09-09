@@ -15,6 +15,7 @@ export const Dropdown: Icon
 export const Email: Icon
 export const Europe: Icon
 export const Favorite: Icon
+export const Finance: Icon
 export const FolderFilled: Icon
 export const FolderUnfilled: Icon
 export const Gaming: Icon
