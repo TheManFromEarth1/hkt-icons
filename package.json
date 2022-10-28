@@ -12,7 +12,16 @@
       "import": "./lib/react/index.js",
       "types": "./lib/react/index.d.ts"
     },
+    "./lib/react": {
+      "import": "./lib/react/index.js",
+      "types": "./lib/react/index.d.ts"
+    },
     "./solid": {
+      "import": "./lib/solid/index.js",
+      "solid": "./lib/solid/index.jsx",
+      "types": "./lib/solid/index.d.ts"
+    },
+    "./lib/solid": {
       "import": "./lib/solid/index.js",
       "solid": "./lib/solid/index.jsx",
       "types": "./lib/solid/index.d.ts"
@@ -21,7 +30,16 @@
       "import": "./lib/react/icon.js",
       "types": "./lib/react/icon.d.ts"
     },
+    "./lib/react/icon": {
+      "import": "./lib/react/icon.js",
+      "types": "./lib/react/icon.d.ts"
+    },
     "./solid/icon": {
+      "import": "./lib/solid/icon.js",
+      "solid": "./lib/solid/icon.jsx",
+      "types": "./lib/solid/icon.d.ts"
+    },
+    "./lib/solid/icon": {
       "import": "./lib/solid/icon.js",
       "solid": "./lib/solid/icon.jsx",
       "types": "./lib/solid/icon.d.ts"
@@ -30,7 +48,16 @@
       "import": "./lib/react/settings.js",
       "types": "./lib/react/settings.d.ts"
     },
+    "./lib/react/settings": {
+      "import": "./lib/react/settings.js",
+      "types": "./lib/react/settings.d.ts"
+    },
     "./solid/settings": {
+      "import": "./lib/solid/settings.js",
+      "solid": "./lib/solid/settings.jsx",
+      "types": "./lib/solid/settings.d.ts"
+    },
+    "./lib/solid/settings": {
       "import": "./lib/solid/settings.js",
       "solid": "./lib/solid/settings.jsx",
       "types": "./lib/solid/settings.d.ts"
@@ -39,7 +66,16 @@
       "import": "./lib/react/widgets.js",
       "types": "./lib/react/widgets.d.ts"
     },
+    "./lib/react/widgets": {
+      "import": "./lib/react/widgets.js",
+      "types": "./lib/react/widgets.d.ts"
+    },
     "./solid/widgets": {
+      "import": "./lib/solid/widgets.js",
+      "solid": "./lib/solid/widgets.jsx",
+      "types": "./lib/solid/widgets.d.ts"
+    },
+    "./lib/solid/widgets": {
       "import": "./lib/solid/widgets.js",
       "solid": "./lib/solid/widgets.jsx",
       "types": "./lib/solid/widgets.d.ts"
@@ -50,25 +86,49 @@
       "react": [
         "./lib/react/index.d.ts"
       ],
+      "src/react": [
+        "./lib/react/index.d.ts"
+      ],
       "solid": [
+        "./lib/solid/index.d.ts"
+      ],
+      "lib/solid": [
         "./lib/solid/index.d.ts"
       ],
       "react/icon": [
         "./lib/react/icon.d.ts"
       ],
+      "lib/react/icon": [
+        "./lib/react/icon.d.ts"
+      ],
       "solid/icon": [
+        "./lib/solid/icon.d.ts"
+      ],
+      "lib/solid/icon": [
         "./lib/solid/icon.d.ts"
       ],
       "react/settings": [
         "./lib/react/settings.d.ts"
       ],
+      "lib/react/settings": [
+        "./lib/react/settings.d.ts"
+      ],
       "solid/settings": [
+        "./lib/solid/settings.d.ts"
+      ],
+      "lib/solid/settings": [
         "./lib/solid/settings.d.ts"
       ],
       "react/widgets": [
         "./lib/react/widgets.d.ts"
       ],
+      "lib/react/widgets": [
+        "./lib/react/widgets.d.ts"
+      ],
       "solid/widgets": [
+        "./lib/solid/widgets.d.ts"
+      ],
+      "lib/solid/widgets": [
         "./lib/solid/widgets.d.ts"
       ]
     }
